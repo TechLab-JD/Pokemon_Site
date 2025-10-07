@@ -1,0 +1,50 @@
+.pokemon-card {
+    background-color: #a5a4a4;
+    border: 1px solid #666666;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+    margin: 20px auto;
+}
+
+.pokemon-description {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.pokemon-image {
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.pokemon-image img {
+    width: 160px;
+    height: 160px;
+    object-fit: fill;
+}
+
+.pokemon-actions {
+    display: flex;
+}
+.pokemon-actions button {
+    flex: 1;
+    margin-left: 5px;
+    border: 1px solid #666666;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.pokemon-actions button:hover {
+    background-color: #e0e0e0;
+}
+
+body {
+    font-family: 'yu gothic', sans-serif; 
+    background-color: #b9b8b8;
+    margin: 0;
+    padding: 0;
+}
